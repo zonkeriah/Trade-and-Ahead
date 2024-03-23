@@ -19,7 +19,7 @@ from sklearn.metrics import silhouette_score
 # Librariesto visualize the elbow curve and silhouette scores
 from yellowbrick.cluster import KElbowVisualizer, SilhouetteVisualizer
 
-# Librariesto perform hierarchical clustering, compute cophenetic correlation, and create dendrograms
+# Libraries to perform hierarchical clustering, compute cophenetic correlation, and create dendrograms
 from sklearn.cluster import AgglomerativeClustering
 from scipy.cluster.hierarchy import dendrogram, linkage, cophenet
 
