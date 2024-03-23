@@ -1,0 +1,27 @@
+# Libraries to help with reading and manipulating data
+numpy
+pandas
+
+# Libraries to help with data visualization
+matplotlib.pyplot
+seaborn
+
+# Librariesto scale the data
+sklearn.preprocessing import StandardScaler
+
+# Librariesto compute distances
+from scipy.spatial.distance import cdist, pdist
+
+# Librariesto perform k-means clustering and compute silhouette scores
+from sklearn.cluster import KMeans
+from sklearn.metrics import silhouette_score
+
+# Librariesto visualize the elbow curve and silhouette scores
+from yellowbrick.cluster import KElbowVisualizer, SilhouetteVisualizer
+
+# Librariesto perform hierarchical clustering, compute cophenetic correlation, and create dendrograms
+from sklearn.cluster import AgglomerativeClustering
+from scipy.cluster.hierarchy import dendrogram, linkage, cophenet
+
+# Libraries to suppress warnings
+import warnings
