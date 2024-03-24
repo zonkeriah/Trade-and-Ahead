@@ -6,17 +6,17 @@ pandas
 matplotlib.pyplot
 seaborn
 
-# Librariesto scale the data
+# Libraries to scale data
 sklearn.preprocessing import StandardScaler
 
-# Librariesto compute distances
+# Libraries to compute distances
 from scipy.spatial.distance import cdist, pdist
 
-# Librariesto perform k-means clustering and compute silhouette scores
+# Libraries to perform k-means clustering and compute silhouette scores
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 
-# Librariesto visualize the elbow curve and silhouette scores
+# Libraries to visualize the elbow curve and silhouette scores
 from yellowbrick.cluster import KElbowVisualizer, SilhouetteVisualizer
 
 # Libraries to perform hierarchical clustering, compute cophenetic correlation, and create dendrograms
