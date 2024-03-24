@@ -6,7 +6,7 @@ pandas
 matplotlib.pyplot
 seaborn
 
-# Libraries to scale the data
+# Libraries to scale data
 sklearn.preprocessing import StandardScaler
 
 # Libraries to compute distances
